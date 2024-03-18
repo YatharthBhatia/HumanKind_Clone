@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'TTCommons';
+    src: url(../public/Humankind_Assets/Humankind_Assets/fonts/62b9c61d09441160a34a955c_TT_20Commons_20Black.otf);
+}
+
+@font-face {
+    font-family: 'font1';
+    src: url(../public/Humankind_Assets/Humankind_Assets/fonts/62bd9b83ee7f1438f09ed724_TTCommonsProXBd.woff);
+}
+
+@font-face {
+    font-family: 'font2';
+    src: url(../public/Humankind_Assets/Humankind_Assets/fonts/62bd9bc30f79ac7e27ed85c1_font.woff);
+}
+
+@font-face {
+    font-family: 'font3';
+    src: url(../public/Humankind_Assets/Humankind_Assets/fonts/0QIvMX1D_JOuMw77I-NP.woff2);
+}
+
+.f1{
+    font-family: 'font1';
+}
+
+.f2{
+    font-family:'font2';
+}
+
+.f3{
+    font-family: 'font3';
+}
+
+.TT{
+    font-family: 'TTCommons';
+}
